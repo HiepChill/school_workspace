@@ -1,0 +1,55 @@
+.first{
+    display: flex;
+    justify-content: center;
+}
+
+.nav_bar{
+    display: flex;
+    
+}
+
+ul li{
+    list-style-type: none;
+    font-size: 25px;
+    background-color: yellow;
+}
+
+li a{
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+li{
+    border-right: 1px solid grey;
+}
+
+li:last-child{
+    border-right: none;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown_content{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    float: left;
+}
+
+.dropdown_content a:hover{
+    background-color: red;
+}
+
+.dropdown:hover .dropdown_content{
+    display: flex;
+
+}
+
+
+
+
+

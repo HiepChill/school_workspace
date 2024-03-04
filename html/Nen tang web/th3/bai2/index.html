@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function CapNhat() {
+            var now = new Date();
+            var gio = now.getHours();
+            var phut = now.getMinutes();
+            var giay = now.getSeconds();            
+            // Đảm bảo luôn có 2 chữ số cho giờ, phút và giây
+            if (gio < 10) {
+              gio = "0" + gio;
+            }
+            if (phut < 10) {
+              phut = "0" + phut;
+            }
+            if (giay < 10) {
+              giay = "0" + giay;
+            }           
+            var time = gio + ":" + phut + ":" + giay;
+            
+            document.getElementById('clock').innerText = time;
+        }
+        setInterval(CapNhat , 1000)
+    </script>
+    <h1 id="clock" style="color: blue;"></h1>
+
+</body>
+</html>

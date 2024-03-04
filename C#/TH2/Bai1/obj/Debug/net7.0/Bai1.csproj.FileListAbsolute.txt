@@ -1,0 +1,15 @@
+D:\workspace\C#\TH2\Bai1\obj\Debug\net7.0\Bai1.csproj.AssemblyReference.cache
+D:\workspace\C#\TH2\Bai1\obj\Debug\net7.0\Bai1.GeneratedMSBuildEditorConfig.editorconfig
+D:\workspace\C#\TH2\Bai1\obj\Debug\net7.0\Bai1.AssemblyInfoInputs.cache
+D:\workspace\C#\TH2\Bai1\obj\Debug\net7.0\Bai1.AssemblyInfo.cs
+D:\workspace\C#\TH2\Bai1\obj\Debug\net7.0\Bai1.csproj.CoreCompileInputs.cache
+D:\workspace\C#\TH2\Bai1\bin\Debug\net7.0\Bai1.exe
+D:\workspace\C#\TH2\Bai1\bin\Debug\net7.0\Bai1.deps.json
+D:\workspace\C#\TH2\Bai1\bin\Debug\net7.0\Bai1.runtimeconfig.json
+D:\workspace\C#\TH2\Bai1\bin\Debug\net7.0\Bai1.dll
+D:\workspace\C#\TH2\Bai1\bin\Debug\net7.0\Bai1.pdb
+D:\workspace\C#\TH2\Bai1\obj\Debug\net7.0\Bai1.dll
+D:\workspace\C#\TH2\Bai1\obj\Debug\net7.0\refint\Bai1.dll
+D:\workspace\C#\TH2\Bai1\obj\Debug\net7.0\Bai1.pdb
+D:\workspace\C#\TH2\Bai1\obj\Debug\net7.0\Bai1.genruntimeconfig.cache
+D:\workspace\C#\TH2\Bai1\obj\Debug\net7.0\ref\Bai1.dll

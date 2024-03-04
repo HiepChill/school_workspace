@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài thực hành số 4</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="main">
+        <form>
+            <h4><strong>Đăng ký thành viên</strong></h4><br>
+            <p class="main">Thông tin tài khoản</p>
+            <p for="Username">Username:<input type="text" id="Username"></p>
+            <p for="Password">Password:<input type="password" id="Password"></p>
+            <p for="XTPassword">Nhập lại pasword: <input type="password" id="XTPass"></p>
+            <p class="main">Thông tin cá nhân</p>
+            <p for="Name">Họ và tên: <input type="text" id="Name"></p>
+            <p for="Sex">Giới tính: <select id="Sex">
+                <option value="Nam">Nam</option>
+                <option value="Nữ">Nữ</option>
+            </select>
+            </p>
+            <p for="Address" style="display: flex;align-items: center;justify-content: space-between;">Địa chỉ: <textarea id="Address" cols="15" rows="5" ></textarea></p>
+            <p for="Date">Ngày sinh: <input type="datetime"  id="Date" placeholder="dd/mm/yyyy"></p>
+            <p for="Email">Email: <input type="email"></p>
+            <p for="TT">Tình trang hôn nhân: 
+                <div id="khung" style="width: 180px;  float: right; margin-top: -40px;">
+                    <input type="radio" value="độc thân" name="lc" id="dt"><label for="dt">   độc thân</label> 
+                    <input type="radio" value="đã đính hôn" name="lc" id="dh"><label for="dh">  đã đính hôn</label>
+                    <input type="radio" value="ly dị" name="lc" id="ld"><label for="ld">   ly dị</label>
+                    <input type="radio" value="quá phụ" name="lc" id="qp"><label for="qp">   quá phụ</label>
+                </div>
+            </p>
+                
+               
+            <input type="button" value="Gửi đi"  style="margin-left: 100px;">
+            <input type="button" value="Nhập lại">
+            
+        </form>
+    </div>
+    
+</body>
+</html>

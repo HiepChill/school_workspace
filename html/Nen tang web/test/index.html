@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/jquery/jquery-3.6.4.min.js">
+    <title>Document</title>
+    <style>
+        form{
+            font-family: sans-serif;
+        }
+        #name-error{
+            color: red;
+            display: block;
+            font-size: 1.1rem;
+            font-weight: 700;
+        }
+        .label_name{
+            color: red;
+            font-size: 1.1rem;
+            font-weight: 700;
+        }
+        form>input{
+            margin: 10px 0;
+            width: 200px;
+            height: 25px;
+        }
+        form>button{
+            background-color: #038aff;
+            width: 50px;
+            height: 30px;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+        form>input.error{
+            border-radius: 3px;
+            border: 1.2px solid #cc0000;
+}
+</style>
+</head>
+<body>
+    <script src="/jquery/jquery-3.6.4.min.js"></script>
+    <script src="/jquery/jquery-validate/jquery-validation-1.19.5/dist/jquery.validate.min.js"></script>
+    <form id="myform">
+        <label class="label_name" for="name">Account name</label><br/>
+        <input type="text" name="name" id="name" data-rule-required="true" data-msg-required="This field is required." css><br/>
+        <button type="submit">Gửi</button>
+      </form>
+      <script>
+        $(document).ready(function(){
+        $("#myform").validate();
+        });
+      </script>
+</body>
+</html>

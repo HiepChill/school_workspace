@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đóng góp ý kiến</title>
+</head>
+<body>
+    <style>
+        #main{
+            margin: auto;
+            width: 400px;
+            border: 1px solid black;
+        }
+        input , textarea{
+            display: block;
+            margin-left: 100px;
+            margin-top: -20px;
+        }
+        #submit{
+            display: flex;
+            margin-left: 100px;
+        }
+        #submit > input{
+
+            margin: 20px;
+        }
+    </style>
+    <div id="main">
+        <h3>Đóng góp ý kiến</h3>
+        <p>Họ và tên: <input type="text"></p> 
+        <p>Nôi dung góp ý </p><textarea name="gopy" id="gopy" cols="30" rows="10"></textarea>
+        <div id="submit">
+            <input type="button" value="Gửi đi">
+            <input type="button" value="Nhập lại">
+        </div>
+        
+    </div>
+</body>
+</html>

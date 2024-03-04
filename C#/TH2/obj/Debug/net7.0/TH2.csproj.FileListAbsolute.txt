@@ -1,0 +1,5 @@
+D:\workspace\C#\TH2\obj\Debug\net7.0\TH2.csproj.AssemblyReference.cache
+D:\workspace\C#\TH2\obj\Debug\net7.0\TH2.GeneratedMSBuildEditorConfig.editorconfig
+D:\workspace\C#\TH2\obj\Debug\net7.0\TH2.AssemblyInfoInputs.cache
+D:\workspace\C#\TH2\obj\Debug\net7.0\TH2.AssemblyInfo.cs
+D:\workspace\C#\TH2\obj\Debug\net7.0\TH2.csproj.CoreCompileInputs.cache

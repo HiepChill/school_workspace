@@ -85,7 +85,13 @@
         "typeindex": "cpp",
         "typeinfo": "cpp",
         "valarray": "cpp",
-        "variant": "cpp"
+        "variant": "cpp",
+        "format": "cpp",
+        "queue": "cpp",
+        "xlocale": "cpp",
+        "xmemory": "cpp",
+        "xutility": "cpp",
+        "xstring": "cpp"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }

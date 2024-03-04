@@ -1,0 +1,27 @@
+C:\Users\lyanhtuan\AppData\Local\Temporary Projects\DanhSachSV\obj\x86\Debug\DanhSachSV.Form1.resources
+C:\Users\lyanhtuan\AppData\Local\Temporary Projects\DanhSachSV\obj\x86\Debug\DanhSachSV.Properties.Resources.resources
+C:\Users\lyanhtuan\AppData\Local\Temporary Projects\DanhSachSV\obj\x86\Debug\DanhSachSV.csproj.GenerateResource.Cache
+C:\Users\lyanhtuan\AppData\Local\Temporary Projects\DanhSachSV\bin\Debug\DanhSachSV.exe
+C:\Users\lyanhtuan\AppData\Local\Temporary Projects\DanhSachSV\bin\Debug\DanhSachSV.pdb
+C:\Users\lyanhtuan\AppData\Local\Temporary Projects\DanhSachSV\obj\x86\Debug\DanhSachSV.exe
+C:\Users\lyanhtuan\AppData\Local\Temporary Projects\DanhSachSV\obj\x86\Debug\DanhSachSV.pdb
+C:\Users\lyanhtuan\Documents\Visual Studio 2010\Projects\DanhSachSV\DanhSachSV\obj\x86\Debug\DanhSachSV.exe
+C:\Users\lyanhtuan\Documents\Visual Studio 2010\Projects\DanhSachSV\DanhSachSV\obj\x86\Debug\DanhSachSV.pdb
+C:\Users\lyanhtuan\Documents\Visual Studio 2010\Projects\DanhSachSV\DanhSachSV\bin\Debug\DanhSachSV.exe
+C:\Users\lyanhtuan\Documents\Visual Studio 2010\Projects\DanhSachSV\DanhSachSV\bin\Debug\DanhSachSV.pdb
+C:\Users\lyanhtuan\Documents\Visual Studio 2010\Projects\DanhSachSV\DanhSachSV\obj\x86\Debug\DanhSachSV.Form1.resources
+C:\Users\lyanhtuan\Documents\Visual Studio 2010\Projects\DanhSachSV\DanhSachSV\obj\x86\Debug\DanhSachSV.Properties.Resources.resources
+C:\Users\lyanhtuan\Documents\Visual Studio 2010\Projects\DanhSachSV\DanhSachSV\obj\x86\Debug\DanhSachSV.csproj.GenerateResource.Cache
+C:\Users\lyanhtuan\Documents\Visual Studio 2010\Projects\DanhSachSV\DanhSachSV\obj\x86\Debug\DanhSachSV.csproj.CoreCompileInputs.cache
+C:\Users\lyanhtuan\Documents\Visual Studio 2010\Projects\DanhSachSV\DanhSachSV\obj\x86\Debug\DanhSachSV.csproj.AssemblyReference.cache
+D:\workspace\C#\DanhSachSV\DanhSachSV\bin\Debug\DanhSachSV.exe.config
+D:\workspace\C#\DanhSachSV\DanhSachSV\bin\Debug\DanhSachSV.exe
+D:\workspace\C#\DanhSachSV\DanhSachSV\bin\Debug\DanhSachSV.pdb
+D:\workspace\C#\DanhSachSV\DanhSachSV\obj\x86\Debug\DanhSachSV.csproj.AssemblyReference.cache
+D:\workspace\C#\DanhSachSV\DanhSachSV\obj\x86\Debug\DanhSachSV.csproj.SuggestedBindingRedirects.cache
+D:\workspace\C#\DanhSachSV\DanhSachSV\obj\x86\Debug\DanhSachSV.Form1.resources
+D:\workspace\C#\DanhSachSV\DanhSachSV\obj\x86\Debug\DanhSachSV.Properties.Resources.resources
+D:\workspace\C#\DanhSachSV\DanhSachSV\obj\x86\Debug\DanhSachSV.csproj.GenerateResource.cache
+D:\workspace\C#\DanhSachSV\DanhSachSV\obj\x86\Debug\DanhSachSV.csproj.CoreCompileInputs.cache
+D:\workspace\C#\DanhSachSV\DanhSachSV\obj\x86\Debug\DanhSachSV.exe
+D:\workspace\C#\DanhSachSV\DanhSachSV\obj\x86\Debug\DanhSachSV.pdb

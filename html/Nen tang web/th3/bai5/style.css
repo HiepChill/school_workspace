@@ -1,0 +1,111 @@
+.box{
+    display: flex;
+    align-items: center;
+}
+
+.b5_title_{
+    color: red;
+    padding-left: 1px;
+    margin: 0;
+}
+
+.b5_title{
+    font-weight: bold;
+}
+
+.b5_note{
+    margin: 10px 0;
+}
+
+.b5_input_tdv{
+    margin-bottom: 15px;
+    width: 590px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.b5_{
+    margin: 0 0 5px 0;
+}
+
+.b5_label_district{
+    margin-top: 10px
+}
+
+.b5_input_note{
+    height: 50px;
+}
+
+.box_bottom{
+    width: 590px;
+    height: 50px;
+}
+
+.box1{
+
+}
+
+.box2{
+    display: flex;
+    align-items: center;
+}
+
+.b5_box1_title_{
+    margin: 0;
+}
+
+.b5_button_submit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: 35px;
+    color: white;
+    background-color:#038aff;
+    border-radius: 5px;
+    font-size: 1.3rem;
+}
+
+.b5_box1_title1_{
+    font-size: 1.3rem;
+}
+
+.b5_box1_title2_{
+    margin-top: 2px;
+    font-size: 0.7rem;
+}
+
+.b5_send{
+    font-size: 0.6rem;
+}
+
+.b5_privacy_report{
+    width: 590px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    display: flex;
+}
+
+.b5_space{
+    width: 0.1px;
+    height: 12px;
+    border: 0.5px solid;
+    margin: 0 3px;
+}
+
+.b5_report_note{
+    text-decoration: none;
+    color: #038aff;
+}
+
+.b5{
+    width: 590px;
+    padding: 30px;
+    border: 1px solid;
+    box-shadow: -2px -2px midnightblue;
+}
+
+.b5_form{
+    width: 590px;
+}

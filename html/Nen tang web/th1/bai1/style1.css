@@ -1,0 +1,46 @@
+:root{
+    --primary-color: black;
+}
+
+body{
+    margin: 0;
+    padding: 20px;
+    background: whitesmoke;
+}
+
+.card{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card img{
+    height: 60px;
+    width: 60px;
+}
+
+.card h1{
+    color: var(--primary-color);
+}
+
+.title{
+    color: black;
+}
+
+.mailbox{
+    width: 400px;
+    height: 60px;
+    font-weight: bold   ;
+}
+
+.button{
+    height: 70px;
+    width: 200px;
+    margin: 20px auto;
+    background: navy;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: white ;
+}

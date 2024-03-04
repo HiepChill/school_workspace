@@ -1,0 +1,7 @@
+D:\workspace\C#\TH4\Bai1\obj\Debug\net7.0-windows\Bai1.csproj.AssemblyReference.cache
+D:\workspace\C#\TH4\Bai1\obj\Debug\net7.0-windows\Bai1.FormChuongTrinh.resources
+D:\workspace\C#\TH4\Bai1\obj\Debug\net7.0-windows\Bai1.csproj.GenerateResource.cache
+D:\workspace\C#\TH4\Bai1\obj\Debug\net7.0-windows\Bai1.GeneratedMSBuildEditorConfig.editorconfig
+D:\workspace\C#\TH4\Bai1\obj\Debug\net7.0-windows\Bai1.AssemblyInfoInputs.cache
+D:\workspace\C#\TH4\Bai1\obj\Debug\net7.0-windows\Bai1.AssemblyInfo.cs
+D:\workspace\C#\TH4\Bai1\obj\Debug\net7.0-windows\Bai1.csproj.CoreCompileInputs.cache

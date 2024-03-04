@@ -1,0 +1,97 @@
+body{
+    width: 100%;
+}
+
+.page{
+    display: flex;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-right: 5px;
+}
+
+.box{
+    object-fit: cover;
+
+}
+
+.title{
+    color: black;
+    background-color: grey;
+    height: 30px;
+    font-size: 20px;
+    text-align: left;
+    padding: 3px 0 0 10px;
+}
+
+.cover{
+
+}
+
+.content{
+    margin: 5px 0 20px 10px;
+}
+
+
+.right{
+    width: 38%;
+    border: 1px solid black;
+}
+
+.form-cover{
+    object-fit: cover;
+}
+
+.form-title{
+    object-fit: cover;
+    background-color: red;
+    height: 35px;
+    padding: 0 auto;
+    margin-top: -19px;
+    padding-left: 5px;
+    
+}
+
+.form-title h3{
+    color: #fff;
+}
+
+.form-content{
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-content input{
+    object-fit: cover;
+    height: 27px;
+    width: 100%;
+}
+
+.robotcheck{
+    position: relative;
+    border: 1px solid black;
+    width: 50%;
+    height: 50px;
+    left: 25%;
+    margin-top: 20px;
+}
+
+.check-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+label.error{
+    color: red;
+    background-color: blanchedalmond;
+}

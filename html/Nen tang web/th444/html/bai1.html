@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài thực hành số 1</title>
+    <link rel="stylesheet" href="../css/style1.css">
+</head>
+<body>
+    <div id="main">
+        <div id="main1">
+            <div class="header">
+                <p>Nhập thông tin xe cộ</p>
+            </div>
+            <form id="form">
+                <label for="name">Tên Xe <span style="color:red">*</span>:</label>
+                <input type="text" id="name" name="name_car" required>
+                <label for="img">Hình Ảnh:</label>
+                <input type="url" id="img" name="img-car">
+                <label for="company">Hãng Xe<span style="color:red">*</span>:</label>
+                <select name="car-type" id="car-type" name="car_type" required>
+                    <optgroup label="Swedish cars">
+                        <option value="Volvo">Volvo</option>
+                        <option value="Saab">Saab</option>
+                    </optgroup>
+                    <optgroup label="Gernan Cars">
+                        <option value="Mercedes">Mercedes</option>
+                        <option value="Audi">Audi</option>
+                        <option value="" selected>--Chọn hãng xe--</option>
+                    </optgroup>
+                </select>
+                <label for="price">Giá Tiền<span style="color:red">*</span>:</label>
+                <input type="number" id="price" name="price" required>
+                <label for="note">Mô tả:</label>
+                <textarea name="note" id="note" cols="30" rows="10"></textarea>
+                <label for="lh">Người liên hệ <span style="color:red">*</span>:</label>
+                <input type="text" id="lh" name="lh" required>
+                <label for="phone">Số điện thoại người liên hệ<span style="color:red">*</span>:</label>
+                <input type="tel" id="phone"  name="phone" required>
+                <label for="email">Email<span style="color:red">*</span>:</label>
+                <input type="email" id="email" name="email" required>
+                <div id="submit">
+                    <input type="button" value="Lưu" style="background-color: green; margin-right: 10px;border-radius: 5px;" onclick="AddRow()">
+                    <input type="button" value="Xóa" style="background-color: yellow;border-radius: 5px;" onclick="DeleteRow()">
+                </div>
+                
+            </form>
+            
+        </div>
+        <div id="main2">
+            <div class="header part2">
+                <p>Quản lý danh sách xe cộ</p>
+                <input id="search" type="search" placeholder="Tìm  kiếm ....">
+                <table  style="width: 100%;" id="table">
+                    <thead >
+                        <tr>
+                            <th>STT</th>
+                            <th>Hình Ảnh</th>
+                            <th>Tên Xe</th>
+                            <th>Hãng Xe</th>
+                            <th>Giá Tiền</th>
+                            <th>Người Liên Hệ</th>
+                            <th>Điện Thoại</th>
+                            <th>Email</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.js"></script>
+    <script src="../jquery/js2.js"></script>
+</body>
+</html>
+

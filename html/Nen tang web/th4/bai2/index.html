@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        #box{
+            width: 500px;
+            height: 60px;
+            border: 1px solid black;
+            border-radius: 5px;
+            margin-top: 15px;
+        }
+        #content{
+            text-align: center;
+        }
+    </style>
+    
+
+    <div id="change">
+        <input type="radio" name="color" value="red" id="red">
+        <label for="red">Màu đỏ</label>
+        <input type="radio" name="color" value="blue" id="blue">
+        <label for="blue">Xanh da trời</label>
+        <input type="radio" name="color" value="green" id="green">
+        <label for="green">Xanh lá cây</label>
+
+        <div id="box">
+            <p id="content"></p>
+        </div>
+    </div>
+
+    <script src="/jquery/jquery-3.6.4.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+tr, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
+
+body{
+    margin: 50px 50px 0 50px;
+}

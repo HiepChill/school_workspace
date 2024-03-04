@@ -1,0 +1,45 @@
+body{
+    margin: 50px 50px 0 50px;
+}
+
+table{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    margin: 0 30px 0 0;
+}
+  
+td, th , tr{
+    border: 1px solid black;
+}
+  
+
+h1{
+    color: Red;
+}
+
+.table{
+    display: flex;
+    justify-content: center;
+}
+
+.table_1{
+    display: flex;
+}
+
+.table_1_icons{
+    display: flex;
+    flex-direction: column;
+}
+
+.table_1_table{
+    display: flex;
+}
+
+i{
+    margin-bottom: 5px;
+}
+
+tr:hover{
+    background-color: yellowgreen;
+    color: white;
+}

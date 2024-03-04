@@ -1,0 +1,26 @@
+:root{
+    --textcolor: red ;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background: black;
+}
+
+.main_box{
+    height: 40%;
+    width: 100%;
+    background: white;
+}
+
+.main_box img{
+    object-fit: fill;
+    height: 100%;
+    width: 100%;
+}

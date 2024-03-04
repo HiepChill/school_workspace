@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quản lý ô tô</title>
+    <script src="/jquery/jquery-3.6.4.min.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+    <script src="/jquery/jquery-3.6.4.min.js"></script>
+    <div class="form">
+        <div class="left">
+            <form action="" class="form_1">
+                <div class="title">
+                    <h4 style="color: #fff;">NHẬP THÔNG TIN XE CỘ</h4>
+                </div>
+
+                <div class="box1">
+                    <div class="box">
+                        <label for="" class="box_title">Tên xe</label>
+                        <p class="box__">*</p>
+                        <p>:</p>    
+                    </div>
+                    <input class="box_input" type="text" id="name">
+    
+                    <div class="box">
+                        <label for="" class="box_title">Hình Ảnh</label>
+                    </div>
+                    <input type="text" class="box_input" id="image">
+    
+                    <div class="box">
+                        <label for="" class="box_tile">Hãng Xe</label>
+                        <p class="box__">*</p>
+                        <p>:</p>
+                    </div>
+                    <input type="search" placeholder="--Hãng Xe--" class="box_input" id="brand">
+
+                    <div class="box">
+                        <label for="" class="box_title">Giá Tiền</label>
+                        <p class="box__">*</p>
+                        <p>:</p>
+                    </div>
+                    <input type="number" class="box_input" id="price">
+
+                    <div class="box">
+                        <label for="" class="box_title">Mô Tả</label>
+                        <p>:</p>
+                    </div>
+                    <textarea name="" id="mt" cols="73" rows="10"></textarea>
+
+                    <div class="box">
+                        <label for="" class="box_title">Người liên hệ</label>
+                        <p class="box__">*</p>
+                        <p>:</p>
+                    </div>
+                    <input type="text" class="box_input" id="contact">
+
+                    <div class="box">
+                        <label for="" class="box_title">Số điện thoại người liên hệ</label>
+                        <p class="box__">*</p>
+                        <p>:</p>
+                    </div>
+                    <input type="text" class="box_input" id="phone_number">
+
+                    <div class="box">
+                        <label for="" class="box_title">Email</label>
+                        <p class="box__">*</p>
+                        <p>:</p>
+                    </div>
+                    <input type="text" class="box_input" id="mail">
+
+                    <div class="button">
+                        <button onclick="AddData(event)" class="button_" style="background-color: #38b000; color: #fff; border: 1px solid #38b000;">Lưu</button>
+                        <button onclick="DeleteData(event)" class="button_" style="margin-left: 10px; background-color: #ffbe0b; color: black; border: 1px solid #ffbe0b;">Xóa</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div class="right">
+            <form action="" class="form_2">
+                <div class="title1">
+                    <h4 style="color: #fff">QUẢN LÝ DANH SÁCH XE CỘ</h4>
+                </div>
+
+                <div class="search_bar">
+                    <input type="text" class="search_bar_" placeholder="Tìm kiếm ...">
+                </div>
+
+                <div class="table">
+                    <table id="list">                  
+                        <thead>
+                            <tr>
+                                <th>STT</th>
+                                <th>Hình ảnh</th>
+                                <th>Tên Xe</th>
+                                <th>Hãng Xe</th>
+                                <th>Giá Tiền</th>
+                                <th>Người liên hệ</th>
+                                <th>Điện thoại</th>
+                                <th>Email</th>
+                            </tr>
+                        </thead>
+    
+                        <tbody></tbody>           
+                    </table>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+

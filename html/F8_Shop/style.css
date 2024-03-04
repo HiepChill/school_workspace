@@ -1,0 +1,27 @@
+/* id dùng #
+class dùng .
+id dùng duy nhất 1 thẻ
+class dùng cho nhiều thẻ */
+:root{
+    --primary : green;
+}
+head{
+    .box{
+        width: 50%;
+        height: 50%;
+    }
+}
+#1 {
+    color: rgb(113, 26, 150);
+    font-size: 50px;
+    }
+.hello {
+    color: green;
+
+}
+.hi{
+    color: var(--primary);
+}
+h2{
+    color: var(--primary);
+}
